@@ -1,0 +1,52 @@
+body {
+    background-color: rgb(128, 227, 240);
+    font-family: 'Cookie', cursive;
+    color: purple;
+    font-weight: bold;
+
+}
+
+form,
+section,
+p {
+    display: flex;
+    justify-content: center;
+
+
+}
+
+section {
+    padding: 4px;
+
+}
+
+
+p {
+
+    font-size: 2em
+}
+
+label {
+    font-size: 1.3em;
+    padding-right: 2px;
+}
+
+input,
+button {
+    border: solid rgb(77, 11, 170);
+    border-radius: 9px;
+
+}
+
+input {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+}
+
+#btnSearch {
+    margin-left: 3px;
+}
+
+#imgDiv {
+    margin-top: 15px;
+}

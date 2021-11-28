@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Giphy Party!</title>
+  <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="app.css">
+
+</head>
+
+<body>
+  <div id="container">
+    <p>GIFY SEARCH</p>
+    <form>
+      <label>Search</label>
+      <input id="search" type="text" autocomplete="off">
+      <button id="btnSearch" type="submit">Submit</button>
+    </form>
+    <div id="imgDiv"></div>
+    <section id=secDiv>
+      <button id="btnRemove">Remove All Gifs</button>
+    </section>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.js"></script>
+  <script src="app.js"></script>
+</body>
+
+</html>
